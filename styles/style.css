@@ -1,0 +1,405 @@
+@import url(https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+  font-size: 5px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 1000;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #64baaa;
+  text-decoration: solid;
+}
+
+
+.hero {
+  background-image: url("assets/fisioterapeuta1.png");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+
+}
+
+.hero-texto h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-texto .botao-orcamento {
+  display: inline-block;
+}
+
+    body {
+        background-color: #113436;
+        box-sizing: border-box;
+        height: 100vh;
+        margin: 0;
+        font-family: "GFS Didot", serif;
+    }
+
+.title-bold {
+        color:#d4eaeb
+    }
+    header {
+      color: white;
+      padding: 15px 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+      flex-wrap: wrap; 
+      gap: 40px;
+    }
+    
+    .cabecalho {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #033c3c;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+    .cabecalho__logo img {
+      height: 48px;
+    }
+    
+    .cabecalho__menu {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .cabecalho__menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .cabecalho__menu a:hover {
+      color: #64baaa;
+    }
+    
+    .cabecalho_botao {
+      background-color: #64baaa;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    
+
+    .sobremim {
+        background-color: #113436;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;        
+        gap: 40px;                    
+        max-width: 1200px;
+        margin: 0 auto;                
+      }
+      
+      .sobremim__image {
+        width: 50%;
+        height: auto;
+        border-radius: 20px;
+        flex-shrink: 0;               
+      }
+      
+      .sobremim__texto {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;          
+      }
+      
+      .sobremim__text__white {
+        font-size: 20px;
+        font-family: "GFS-Didot", sans-serif;
+        color: aliceblue;
+        line-height: 1.5;
+        text-align: left;
+      }
+      
+      .sobremim__button {
+        background-color: #64baaa;
+        color: white;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-weight: bold;
+        width: 180px;
+        border-radius: 8px;
+        margin-top: 20px;
+        display: inline-block;
+        align-items: center;
+      }
+      .sobremim__button:hover {
+      text-decoration: underline;
+      color:#113436;
+      text-decoration: solid;
+    }
+      
+    .como-funciona {
+      background-color: #d4eaeb;
+      padding: 40px 20px;
+      display: flex; 
+      gap: 40px;                    
+      max-width: 1200px;
+      margin: 0 auto;  
+      flex: 2;
+    }
+
+.como-funciona__house img,
+.como-funciona__whatsapp img,
+.como-funciona__help-elderly img,
+.como-funciona__first-aid img,
+.como-funciona__safety img {
+  width: 64px;   
+  height: auto;
+  margin-bottom: 16px;
+}
+
+    .como-funciona__wrapper {
+      background-color: #d4eaeb;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    
+    .como-funciona__wrapper h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #113436;
+    }
+
+    .como-funciona__wrapper h3 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #113436;
+    }
+    
+    .como-funciona__entre-em-contato {
+    background-color: #64baaa;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: inline-block;
+    align-items: center;
+  }
+
+  .head-depoimentos {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 80px;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #ffff
+;
+  }
+  .depoimentos{ 
+   .titulo-depoimentos {
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;                    
+    max-width: 1200px;
+    margin: 0 auto;  
+    flex: 2;
+    }
+    .depoimentos {
+      background-color: #113436;
+      color: white;
+      padding: 40px 20px;
+      overflow: hidden;
+      align-items: center;
+    }
+    
+    .slider {
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      gap: 30px;
+      width: 100%;
+      max-width: 1200px; 
+      margin: 0 auto;
+    }
+    
+    .slide {
+      flex: 0 0 auto;
+      width: 250px;
+      height: 200px;
+      flex-wrap:wrap;
+      background-color: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .slide img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    
+.depoimentos-button2 { 
+  background-color: #64baaa;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-display: center;
+  text-decoration: none;
+  padding: 20px 20px;
+  width: 180px;
+  border-radius: 8px;
+  margin: 20px auto 0 auto; 
+  display: block;
+  margin-bottom: 40px;
+}
+  }
+  .depoimentos-button2:hover{
+    text-decoration: underline;
+    color:#113436;
+    text-decoration: solid;
+
+  }
+
+  .especialidades {
+    background-color: #d4eaeb;
+  padding: 40px 20px;
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  }
+  .especialidades_titulo {
+    text-align: center;
+  width: 100%;
+  }
+
+  .especialidades_motora,
+  .especialidades_respiratoria,
+  .especialidades_neurofuncional {
+     flex: 1 1 300px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  word-wrap: break-word;
+  }
+
+ .why {
+  padding:90px;
+  background-color: #d4eaeb;
+ }
+
+    .botao-orcamento {
+      background-color: #64baaa;
+      color: white;
+      font-weight: bold;
+      padding: 15px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-family: "GFS Didot", serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .botao-orcamento:hover {
+      text-decoration: underline;
+      color:#113436;
+      text-decoration: solid;
+      }
+    footer {
+        background-color: #113436;
+        color:white
+
+    }
+    .rodape {
+      color:white;
+      padding:24px;
+      text-align: center;
+      font-family: GFS;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .logo {
+        font-size: 3px;
+        font-weight: bold;
+      }
+      .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+        text-align: center;
+      }
+    
+      .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+      }
+    
+      .cabecalho__menu {
+        flex-direction: column;
+        gap: 10px;
+      }
+    
+      .cabecalho_botao {
+        display:none;
+      }
+    .sobremim {
+  flex-direction:column;
+}
+.como-funciona {
+    flex-direction:column;
+}
+.depoimentos {
+  flex-direction:column;
+}
+}
